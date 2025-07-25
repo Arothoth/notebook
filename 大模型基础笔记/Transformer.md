@@ -80,4 +80,4 @@ $$
 基于统计指标的方法构造统计指标来评测语言模型的输出与标准答案间的契合程度，并以此作为评测语言模型生成能力的依据。BLEU（BiLingual Evaluation Understudy）和 ROUGE（Recall-Oriented Understudy for Gisting Evaluation）是应用最为广泛的两种统计指标。其中，BLEU 是精度导向的指标，而 ROUGE 是召回导向的指标。
 
 #### 1.2.2.2 基于语言模型的评测
-目前基于语言模型的评测方法主要分为两类：（1）基于上下文词嵌入（Contextual Embeddings）的评测方法；（2）基于生成模型的评测方法。典型的基于上下文词嵌入的评测方法是 BERTScore 。典型的基于生成模型的评测方法是 G-EVAL。与 BERTScore 相比，G-EVAL 无需人类标注的参考答案。这使其可以更好的适应到缺乏人类标注的任务中。
+目前基于语言模型的评测方法主要分为两类：（1）基于上下文词嵌入（Contextual Embeddings）的评测方法；（2）基于生成模型的评测方法。典型的基于上下文词嵌入的评测方法是 BERTScore 。典型的基于生成模型的评测方法是 G-EVAL。与 BERTScore 相比，G-EVAL 无需人类标注的参考答案。这使其可以更好的适应到缺乏人类标注的任务中。
